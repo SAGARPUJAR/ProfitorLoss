@@ -39,6 +39,9 @@ function showOutput(str, stutus) {
       break;
   }
   output.innerText = str;
+  initialPrice.value = "";
+  quantity.value = "";
+  currentPrice.value = "";
 }
 
 function CheckProfitLoss() {
